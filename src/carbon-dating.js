@@ -28,10 +28,6 @@ function dateSample(sample) {
   return Math.ceil(t);
 }
 
-// пример использования функции
-console.log(dateSample('1')); // 22387
-console.log(dateSample('WOOT!')); // false
-
 module.exports = {
   dateSample
 };
